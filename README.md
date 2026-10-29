@@ -12,7 +12,7 @@ A reviewer that shares your context shares your blind spots. This skill dispatch
 
 ## Install
 
-Requires Node.js 22+.
+Requires Node.js 22.20+.
 
 ```bash
 npx skills add CrimsonCod-dev/precommit-audit
@@ -26,7 +26,11 @@ npx skills add CrimsonCod-dev/precommit-audit -g
 
 ### Manual install
 
-Copy `skills/precommit-audit/` into your agent's skills directory:
+Clone the repository, then copy `skills/precommit-audit/` into your agent's skills directory:
+
+```bash
+git clone https://github.com/CrimsonCod-dev/precommit-audit.git
+```
 
 | Agent | Directory |
 |-------|-----------|
@@ -80,6 +84,8 @@ Add `-g` to update the global install. Manual installs: replace the copied folde
 ```bash
 npx skills remove precommit-audit
 ```
+
+Add `-g` to remove the global install.
 
 ## Requirements
 
